@@ -1,0 +1,10 @@
+.list-item {
+  border-bottom: 1px solid #f1f3f5;
+  padding: 20px;
+  animation: slice .4s linear;
+}
+
+@keyframes slice {
+  from { transform: translateX(50%); }
+  to { transform: translateX(0); }
+}

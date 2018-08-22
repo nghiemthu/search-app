@@ -1,0 +1,24 @@
+.search-input input {
+  background: #f1f3f5;
+  border: 2px solid transparent;
+  color: #bfc2c6;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding: 18px;
+  min-width: 75px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.search-input input:focus {
+  border: 2px solid #339af0;
+  color: gray;
+  background: white;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
